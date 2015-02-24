@@ -1,0 +1,94 @@
+\documentclass[11pt,a4paper, sans]{moderncv}       
+
+% moderncv themes
+\moderncvstyle{classic}                             
+\moderncvcolor{orange}                              
+%\renewcommand{\familydefault}{\sfdefault}        
+%\nopagenumbers{}                                 
+% character encoding
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}                       
+
+                     
+%\usepackage{CJKutf8}                             
+
+% adjust the page margins
+\usepackage[scale=0.75, footskip = 51pt]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}               
+\setlength{\makecvtitlenamewidth}{10cm}          
+
+% personal data
+\name{Muraleekrishna}{G}
+\phone[mobile]{+91~9633310916}                   
+\email{muraleekrishna.g.in@ieee.org}             
+\homepage{www.muraleekrishna.com}                
+\social[linkedin]{gmuraleekrishna}               
+\social[github]{gmuraleekrishna}                 
+\photo[64pt][0.1pt]{photo.eps}
+
+\begin{document}
+\makecvtitle
+\section{Education}
+\cventry{2010 -- 2014}{Bachelor of Technology}{Federal Institute of Science and Technology (FISAT)}{Angamaly}{\textit{7.5 CGPA}}{Electronics and Communication Engineering}  % arguments 3 to 6 can be left empty
+\cventry{2008 -- 2010 }{Higher Secondary}{Rajagiri Higher Secondary School}{Kalamassery}{\textit{92.4 \%}}{Mathematics and Computer Science}
+\cventry{2000 -- 2008 }{SSLC}{Carmel Higher Secondary School}{Chalakudy}{\textit{97.5 \%}}{}
+
+\section{Skills}
+\cventry{Languages}{C/C++, Python, Verilog HDL, MATLAB, Octave, MySQL, Processing, LaTex, Ruby}{}{}{}{}
+\cventry{Areas of Interest}{Image processing, Embedded hardware and software, Robotics}{}{}{}{}
+\cventry{Project Management and Practices}{Agile methodology, Test Driven Development}{}{}{}{}
+\cventry{Softwares and Tools}{8085/86 Assembler, MATLAB, GNU Octave, Xilinx SDK, MPLAB, gEDA, Proteus, Qt Designer, Audacity}{}{}{}{}
+\cventry{Hardware}{ARMv7, PIC16F, 8051, ATmega328, OpenPilot CC3D, GPS}{}{}{}{}
+\cventry{Operating Systems}{GNU/Linux, OpenBSD, Macintosh, Windows}{}{}{}{}
+
+\section{Academic Projects}
+\cventry{2014}{Autonomous Car}{Machine learning, Image processing, GPS, Embedded systems}{}{}{Prototype of a car that can reach the given destination on its own. Vehicle uses GPS module to identify for the checkpoints enroute and magnetometric compass module to measure the vehicle heading. An Onboard embedded processing board with ARMv7 is used for path resolution and ATmega328P to drive the motors.}
+\cventry{2014}{Digital EDA and Emulation using RaspberryPi}{Embedded Sytems, EDA}{}{}{This project enables the computer generated digital circuits to be accessed to real world, and manipulate the inputs using voltages like HIGH(+3.3) and LOW(0V) and measure the ouput using standard display and measurement devices. This helps students to interactively build digital circuits. Python was the programming language used.}
+\cventry{2013}{Multilayered display using water drops}{Image processing, Fluid mechanics, Embedded systems}{}{}{To prototype a 3D display system using water drops. The system uses a projector-camera system which synchronizes the flow of water drops and displays images on them. The blob detection techniques was used to detect and predict the position of droplets.}
+\cventry{2013}{pingoLux - A multi-surface projection keyboard}{Image processing}{}{}{As the name suggests it is a touch-on-light keyboard. The laser projected image of a keyboard can be projected on any flat surface. The keyentry is done by pressing on the projected image, which is detected by a camera. The location of keypress is identified by blob detection on thresholded image}
+\cventry{2013}{Digital Score Display Board}{Embedded System}{}{}{This digital scoreboard is used to help the score keepers to display the current team standing to the audience at ease. The system uses ATmega328P to process the data from serial interface and update the LED matrix. A series of SIPO buffers are used for port expansion. The highlight of the project is the flexibility and usability of the user interface provided. The code is completely opensource. The communication between the system and the client (laptop) is using XBee \textregistered 802.15.4 PRO.}
+\cventry{2010}{Railway reservation system using C++}{System application}{}{}{The graphical application was a proof oc concept, which mimiced the  railway reservation and cancellation terminals available at train stations. The project concetrated on developing a network enabled graphical interface for ticketing. The primary goal of this higher secondary school project to deepen the knowledge of C++ programming language}
+
+\section{Industrial training}
+\cvlistitem{Completed training on Telecom Technologies conducted by BSNL Eranakulam.}
+\cvlistitem{Completed plant training on High power TV Transmitter, Prasar Bharathi, Kochi.}
+\cvlistitem{Obtained training from Center for High performance Computing, FISAT.}
+
+\section{Achivements} 
+\cvlistitem{Completed with A Grade, \emph{6.002x Circuits and Electronics }course conducted by Massachusetts Institute of Technology (MIT).} 
+\cvlistitem{Earned Certificate of Merit for higher grades in SSLC, from Ministry of Education, Government of Kerala.}
+\cvlistitem{Completed with A Grade \emph{Introduction to Programming with Python} in an online course by Udacity.}
+\cvlistitem{Participated in Seminars on \emph{Engineers' Day Celebration} by Swadeshi Science Movement.}
+\cvlistitem{Winner, District Basket Ball Championship, Aluva.}
+\cvlistitem{Winner, Sub-District Maths Exhibition, Aluva .}
+\cvlistitem{Winner, Best Photographer, FISAT.}
+\cvlistitem{Earned A Grade, Sub-District Arts Festival (Kalolsavam), Aluva.}
+
+\section{Co-curricular Activities} 
+\cvlistitem{Student Support member, Spoken Tutorial Project, IIT Bombay.} 
+\cvlistitem{Member, \emph{High Performance Computing Team}, FISAT.}        
+\cvlistitem{Member and Guest Speaker, IEEE.}
+\cvlistitem{Organizer, \emph{Nautilus 2k13}, FISAT College Tech Fest.}
+\cvlistitem{Office bearer, \emph{ECHO}, Electronics and Communication Department Club, FISAT.}
+\cvlistitem{Facilitator and Organizer, \emph{ECHO Comity Campus Radio}, FISAT Radio club.}
+\cvlistitem{Organizer, FISAT Science Congress.}
+\cvlistitem{Member, Sub District basketball team.}
+\cvlistitem{Sound Designer and Photographer for Short films.}
+
+
+\section{Languages}
+\cvitemwithcomment{English}{Full professional proficiency}{}
+\cvitemwithcomment{Malayalam}{Native or bilingual proficiency}{}
+\cvitemwithcomment{Hindi}{Limited working proficiency}{}
+\cvitemwithcomment{Tamil}{Limited working proficiency}{}
+\cvitemwithcomment{Kannada}{Elementary proficiency}{}
+
+
+\section{References}
+\begin{itemize}
+  \item \textbf{Mr.Bejoy Varghese}, \emph{Asst. Professor, Dept of ECE, FISAT, Ph: +919446029662}
+  \item \textbf{Mr.Unni Kartha}, \emph{HOD, Dept of Civil Engineering and Placement Officer, FISAT, Ph: +919846387772}
+  \item \textbf{Mr.Mahesh C}, \emph{Computer Programmer, FISAT, Ph: +919995286241}
+\end{itemize}
+
+\end{document}
